@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ulgurji Savdo - Tahlil</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-green: #D2FF28;
+            --tech-green: #D2FF28;
+            --dark-bg: #1a1a1a;
+            --text-white: #ffffff;
+            --text-muted: rgba(255, 255, 255, 0.7);
+        }
+
+        body {
+            background-color: var(--dark-bg);
+            color: var(--text-white);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-image:
+                radial-gradient(circle at 10% 20%, rgba(210, 255, 40, 0.05) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(210, 255, 40, 0.05) 0%, transparent 40%);
+        }
+
+        @media (min-width: 1024px) {
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                overflow: hidden;
+            }
+
+            .slides-container {
+                width: 960px;
+                height: 1080px;
+                max-height: 95vh;
+                aspect-ratio: 960 / 1080;
+                border: 2px solid rgba(210, 255, 40, 0.3);
+                border-radius: 20px;
+                box-shadow: 0 0 100px rgba(0, 0, 0, 0.8), 0 0 30px rgba(210, 255, 40, 0.1);
+                margin: auto;
+                position: relative;
+                overflow: hidden;
+            }
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: var(--primary-green);
+            margin: 0;
+            padding: 0;
+        }
+
+        .highlight {
+            color: var(--primary-green);
+            font-weight: 800;
+        }
+
+        .glass-box {
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-top: 1px solid rgba(210, 255, 40, 0.2);
+            border-radius: 30px;
+            padding: 40px;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+            width: 100%;
+            max-width: 850px;
+        }
+
+        .section-header {
+            font-size: 3rem;
+            font-weight: 800;
+            text-align: center;
+            color: var(--primary-green);
+            margin-bottom: 20px;
+        }
+
+        .topic-subheader {
+            font-size: 2.2rem;
+            font-weight: 700;
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+
+        .plan-list {
+            list-style: none;
+            padding: 0;
+            font-size: 1.4rem;
+        }
+
+        .plan-list li {
+            margin-bottom: 15px;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .plan-list li::before {
+            content: "➜";
+            position: absolute;
+            left: 0;
+            color: var(--primary-green);
+        }
+
+        .calc-step {
+            background: rgba(210, 255, 40, 0.05);
+            border-left: 5px solid var(--primary-green);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            font-size: 1.3rem;
+            line-height: 1.6;
+        }
+
+        .chain-arrow {
+            font-size: 2rem;
+            color: var(--primary-green);
+            margin: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slides-container">
+        <!-- Slide 1: Intro -->
+        <div class="slide active" id="slide-1">
+            <div class="bg-shape bg-shape-1"></div>
+            <div class="section-header">3-BO'LIM TOVAR OLDI SOTDI OPERATSIYALARI</div>
+            <h1 class="topic-subheader">19 Dars Ulgurji savdo</h1>
+            <div
+                style="height: 3px; width: 60px; background: var(--primary-green); margin: 25px auto; border-radius: 10px;">
+            </div>
+            <div class="glass-box" style="margin-top: 30px; text-align: center;">
+                <ul class="plan-list" style="display: inline-block; text-align: left;">
+                    <li>Ulgurji savdo nima?</li>
+                    <li>Tovar sotishda yuritiladigan hujjatlar</li>
+                </ul>
+            </div>
+            <div class="bg-shape bg-shape-2"></div>
+        </div>
+
+        <!-- Slide 2: Ulgurchi savdo nima? -->
+        <div class="slide" id="slide-2">
+            <h2>Ulgurchi savdo - realizatsiya</h2>
+            <div class="glass-box" style="margin-top: 20px;">
+                <div class="calc-step">
+                    Bu tovar oldi-sotdi jarayonlarini <span class="highlight">shartnoma asosida shot-faktura
+                        bilan</span> amalga oshirish jarayoni hisoblanadi.
+                </div>
+                <div
+                    style="margin-top: 30px; padding: 20px; background: rgba(210, 255, 40, 0.1); border-radius: 15px; border: 1px dashed var(--primary-green);">
+                    <h3 style="font-size: 1.8rem; color: #fff; margin-bottom: 10px;">Muhim:</h3>
+                    <p style="font-size: 1.5rem; color: var(--primary-green);">Ulgurji savdo bu faoliyat turi
+                        hisoblanadi.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Hujjatlar zanjiri 1 -->
+        <div class="slide" id="slide-3">
+            <h2>🚚 Ulgurchi savdo hujjatlar zanjiri</h2>
+            <div class="glass-box" style="margin-top: 20px; max-height: 800px; overflow-y: auto; padding-right: 20px;">
+                <div class="calc-step">
+                    <strong class="highlight">1. Oldi-sotdi shartnomasi (Dogovor):</strong><br>
+                    Bitimning huquqiy asosi. Unda narx, miqdor, sifat va to‘lov shartlari (oldindan to‘lov yoki muddatli
+                    to‘lov) mustahkamlanadi.
+                </div>
+                <div class="calc-step">
+                    <strong class="highlight">2. Ishonchnoma (Doverennost):</strong><br>
+                    Xaridor tashkilot o‘z vakiliga tovarni qabul qilib olish huquqini beruvchi hujjat. Bu sotuvchi uchun
+                    tovar begona shaxsga chiqib ketmasligining kafolatidir.
+                </div>
+                <div class="calc-step">
+                    <strong class="highlight">3. Tovar-transport yuk xati (TTN):</strong><br>
+                    Agar tovar transport vositasi (yuk mashinasi) orqali yetkazib berilsa, ushbu hujjat majburiydir.
+                    Yukning yo‘lda qonuniy harakatlanishini tasdiqlaydi.
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: Hujjatlar zanjiri 2 -->
+        <div class="slide" id="slide-4">
+            <h2>🚚 Hujjatlar zanjiri (davomi)</h2>
+            <div class="glass-box" style="margin-top: 20px;">
+                <div class="calc-step">
+                    <strong class="highlight">4. Elektron Hisob-faktura (EHF):</strong><br>
+                    Realizatsiyaning eng muhim moliyaviy hujjati. To'lov va QQS (NDS) hisoblash hamda buxgalteriya
+                    daromadini tan olish uchun asos bo‘ladi.
+                </div>
+                <div class="chain-arrow">
+                    Shartnoma ➡️ Ishonchnoma ➡️ TTN ➡️ EHF
+                </div>
+                <div style="background: rgba(255, 255, 255, 0.05); padding: 20px; border-radius: 15px;">
+                    <p style="font-size: 1.2rem; line-height: 1.5;">
+                        <strong class="highlight">Eslatma:</strong> Buxgalteriyada daromad pul tushgan paytda emas,
+                        balki <span class="highlight">EHF tasdiqlangan paytda</span> tan olinadi.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Daromadning tan olinishi -->
+        <div class="slide" id="slide-5">
+            <h2>📊 Daromadning tan olinishi: 4 Bosqich</h2>
+            <div class="glass-box" style="margin-top: 20px;">
+                <div class="calc-step">
+                    <strong class="highlight">1. Tovarni jo‘natish:</strong> Tovar ombordan chiqib ketadi (E-TTN va
+                    ishonchnoma asosida).
+                </div>
+                <div class="calc-step">
+                    <strong class="highlight">2. EHF rasmiylashtirish:</strong> Sotuvchi elektron hisob-faktura
+                    jo‘natadi.
+                </div>
+                <div class="calc-step">
+                    <strong class="highlight">3. Xaridor tasdiqlashi:</strong> Xaridor fakturani ERI bilan tasdiqlagan
+                    lahzadan boshlab realizatsiya amalga oshgan hisoblanadi.
+                </div>
+                <div class="calc-step">
+                    <strong class="highlight">4. Daromad qayd etilishi:</strong> Shu paytda korxonada daromad
+                    shakllanadi va soliq majburiyati yuzaga keladi.
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 6: Buxgalteriya va Soliq ahamiyati -->
+        <div class="slide" id="slide-6">
+            <h2>📊 Buxgalteriya va Soliq jihatidan ahamiyati</h2>
+            <div class="glass-box" style="margin-top: 20px;">
+                <ul class="plan-list">
+                    <li><strong class="highlight">Tushumning tan olinishi:</strong> Shot-faktura tasdiqlangan sana
+                        buxgalteriyada daromad deb qayd etiladi.</li>
+                    <li><strong class="highlight">Ombor qoldig'i:</strong> Hujjat asosida tovar ombor hisobidan (2910)
+                        chiqib ketadi va tannarxiga (9110) o'tkaziladi.</li>
+                    <li><strong class="highlight">Debitorlik qarzi:</strong> Agar tovar puli keyinroq to'lanadigan
+                        bo'lsa, xaridorning qarzi shakllanadi.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 7: Sotuv operatsiyalari shotlari -->
+        <div class="slide" id="slide-7">
+            <h2>📉 Buxgalteriya shotlari</h2>
+            <div class="glass-box" style="margin-top: 20px;">
+                <div class="calc-step">
+                    <strong class="highlight">9120 — Sotilgan tovarlar tannarxi:</strong><br>
+                    Bu korxona uchun chiqim (xarajat). Tovar ombordagi narxi bilan chiqib ketadi.
+                </div>
+                <div class="calc-step">
+                    <strong class="highlight">9020 — Tovar sotishdan daromad:</strong><br>
+                    Bu korxona uchun tushum. Tovar xaridorga sotilgan narxda aks etadi.
+                </div>
+                <div class="calc-step">
+                    <strong class="highlight">6310 — Olingan bo‘naklar (Avanslar):</strong><br>
+                    Bu korxonaning majburiyati. Pul keldi, lekin tovar hali berilmadi.
+                </div>
+                <div class="calc-step">
+                    <strong class="highlight">4010 — Xaridorlar bilan hisob-kitoblar:</strong><br>
+                    Bu korxonaning aktivi (debitorlik qarzi). Tovar sotilganda shakllanadi.
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: Darsdan olingan natijalar -->
+        <div class="slide" id="slide-8">
+            <h2>Darsdan olingan natijalar</h2>
+            <div class="glass-box" style="margin-top: 20px;">
+                <p style="font-size: 1.3rem; margin-bottom: 25px; color: #fff; opacity: 0.9; text-align: center;">
+                    Ushbu dars davomida biz quyidagi muhim natijalarga erishdik:
+                </p>
+                <div class="calc-step">
+                    <strong class="highlight">1. Ulgurji savdo asoslari:</strong><br>
+                    Ulgurji savdoning shartnoma va EHF asosidagi faoliyat turi ekanligini o'rgandik.
+                </div>
+                <div class="calc-step">
+                    <strong class="highlight">2. Hujjatlar zanjiri:</strong><br>
+                    Shartnoma ➡️ Ishonchnoma ➡️ TTN ➡️ EHF zanjirining ahamiyatini va ketma-ketligini tushundik.
+                </div>
+                <div class="calc-step">
+                    <strong class="highlight">3. Daromad va Soliq:</strong><br>
+                    Daromad pul tushganda emas, balki EHF tasdiqlanganda tan olinishi va soliq majburiyati yuzaga
+                    kelishini bildik.
+                </div>
+                <div class="calc-step">
+                    <strong class="highlight">4. Buxgalteriya shotlari:</strong><br>
+                    Sotuv jarayonida 9020, 9120, 4010 va 6310 shotlarining qo'llanilishini o'zlashtirdik.
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: Yakun -->
+        <div class="slide" id="slide-9">
+            <div class="bg-shape bg-shape-1" style="animation: pulse 3s infinite;"></div>
+            <div class="bg-shape bg-shape-2" style="animation: pulse 3s infinite reverse;"></div>
+            <h1 style="text-align: center; line-height: 1.2;">
+                O'SISHDAN<br>
+                <span
+                    style="color: var(--primary-green); -webkit-text-fill-color: var(--primary-green);">TO'XTAMANG!</span>
+                🚀
+            </h1>
+            <p style="font-size: 1.2rem; color: var(--primary-green); margin-top: 20px; opacity: 0.6;">DARS TUGADI</p>
+            <canvas id="fireworks"
+                style="position: absolute; top:0; left:0; width:100%; height:100%; z-index:-1; pointer-events:none;"></canvas>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="progress-bar" id="progressBar"></div>
+    <div class="controls">
+        <div class="control-btn" onclick="prevSlide()">❮</div>
+        <div class="control-btn" onclick="nextSlide()">❯</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
